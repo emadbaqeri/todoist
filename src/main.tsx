@@ -1,10 +1,42 @@
 import React from 'react';
-import {SafeAreaView, Text} from 'react-native';
+import {StyleSheet, Text} from 'react-native';
 
-export default function App() {
+import {SafeAreaView} from 'react-native-safe-area-context';
+import {NavigationContainer} from '@react-navigation/native';
+import {createNativeStackNavigator} from '@react-navigation/native-stack';
+
+function HomeScreen() {
   return (
-    <SafeAreaView>
-      <Text>Hello World</Text>
+    <SafeAreaView style={styles.wrapper}>
+      <Text>Home Screen</Text>
     </SafeAreaView>
   );
 }
+
+const {Navigator: AppNavigator, Screen: AppScreen} =
+  createNativeStackNavigator();
+
+export default function App() {
+  return (
+    <NavigationContainer>
+      <AppNavigator
+        screenOptions={{headerShown: false}}
+        initialRouteName="Home">
+        <AppScreen name="Home" component={HomeScreen} />
+      </AppNavigator>
+    </NavigationContainer>
+  );
+}
+
+const styles = StyleSheet.create({
+  wrapper: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  headerWrapper: {
+    height: 200,
+    backgroundColor: 'red',
+    width: '100%',
+  },
+});
