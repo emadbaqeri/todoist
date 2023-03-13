@@ -1,8 +1,7 @@
 import { StyleSheet } from 'react-native';
 
 const ButtonStyles = StyleSheet.create({
-  container: {}
-})
-
+  container: {},
+});
 
 export default ButtonStyles;
