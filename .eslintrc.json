@@ -31,6 +31,17 @@
   "root": true,
   "plugins": ["react", "react-native"],
   "rules": {
-    "react/jsx-props-no-spreading": "off"
+    "react/jsx-props-no-spreading": "off",
+    "no-restricted-exports": {
+      "defaultFrom": true,
+      "namedFrom": true
+    },
+    "react/function-component-definition": [
+      true,
+      {
+        "namedComponents": ["function-declaration", "function-expression", "arrow-function"],
+        "unnamedComponents": ["function-expression", "arrow-function"]
+      }
+    ]
   }
 }
