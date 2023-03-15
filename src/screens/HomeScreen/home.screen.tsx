@@ -1,12 +1,10 @@
-import { Text } from 'react-native';
-import { Layout } from '@components';
+import React from 'react';
+import { Layout, Header } from '@components';
 
-const HomeScreen = () => {
-  return (
-    <Layout>
-      <Text>This is HomeScreen</Text>
-    </Layout>
-  );
-};
+const HomeScreen = () => (
+  <Layout>
+    <Header />
+  </Layout>
+);
 
 export default HomeScreen;

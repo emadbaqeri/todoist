@@ -1,16 +1,14 @@
 import React from 'react';
-import { Pressable } from 'react-native';
-import type { PressableProps } from 'react-native';
+import { TouchableOpacity } from 'react-native';
 
 import styles from './button.styles';
-
-type ButtonProps = PressableProps & React.PropsWithChildren;
+import { ButtonProps } from './button.types';
 
 function Button({ children, ...props }: ButtonProps) {
   return (
-    <Pressable style={styles.container} {...props}>
+    <TouchableOpacity style={styles.container} {...props}>
       {children}
-    </Pressable>
+    </TouchableOpacity>
   );
 }
 
