@@ -48,3 +48,23 @@ export const CTA_DISTANCE_FROM_EDGE = {
   RIGHT: ScreenDimensions.width * (os === 'ios' ? 0.05 : 0.03),
   BOTTOM: ScreenDimensions.height * (os === 'ios' ? 0.05 : 0.03),
 };
+
+export const Fonts = {
+  IBMPlexSans: {
+    Regular: 'IBMPlexSans',
+    Itaclic: 'IBMPlexSans-Italic',
+    ThinItalic: 'IBMPlexSans-ThinItalic',
+    ExtraLight: 'IBMPlexSans-ExtLt',
+    ExtraLightItalic: 'IBMPlexSans-ExtLtItalic',
+    Light: 'IBMPlexSans-ExtLtItalic',
+    LightItalic: 'IBMPlexSans-LightItalic',
+    Text: 'IBMPlexSans-Text',
+    TextItalic: 'IBMPlexSans-TextItalic',
+    Medium: 'IBMPlexSans-Medm',
+    MediumItalic: 'IBMPlexSans-MedmItalic',
+    SemiBold: 'IBMPlexSans-SmBld',
+    SemiBoldItalic: 'IBMPlexSans-SmBldItalic',
+    Bold: 'IBMPlexSans-Bold',
+    BoldItalic: 'IBMPlexSans-BoldItalic',
+  },
+};

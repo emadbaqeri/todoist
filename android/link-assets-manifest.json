@@ -1,0 +1,69 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/IBMPlexSans-Bold.ttf",
+      "sha1": "8c8f745c052873b66ada580412ec8521209865dc"
+    },
+    {
+      "path": "assets/fonts/IBMPlexSans-BoldItalic.ttf",
+      "sha1": "c59c772e35ce2fc8ce26635390b62d17af0b0373"
+    },
+    {
+      "path": "assets/fonts/IBMPlexSans-ExtraLight.ttf",
+      "sha1": "a0538066bd6a837849024a28ad3d88311994ad0a"
+    },
+    {
+      "path": "assets/fonts/IBMPlexSans-ExtraLightItalic.ttf",
+      "sha1": "47af98360404589c53f7a43a75b32706bd2ad0a7"
+    },
+    {
+      "path": "assets/fonts/IBMPlexSans-Italic.ttf",
+      "sha1": "9ab895645322f369d9dffee1057796618cdfec92"
+    },
+    {
+      "path": "assets/fonts/IBMPlexSans-Light.ttf",
+      "sha1": "2a927ce8dd4c581aa1ee099b19d8eb7d451e259b"
+    },
+    {
+      "path": "assets/fonts/IBMPlexSans-LightItalic.ttf",
+      "sha1": "aa3379a7c58b2ff7ef2d6c5e17c56f872e176764"
+    },
+    {
+      "path": "assets/fonts/IBMPlexSans-Medium.ttf",
+      "sha1": "9dc5afaad79d7ebc1896f728c3df2bfc1e17a9bd"
+    },
+    {
+      "path": "assets/fonts/IBMPlexSans-MediumItalic.ttf",
+      "sha1": "ce65abcaf789cb34d65b2f25e3e16dc46472b807"
+    },
+    {
+      "path": "assets/fonts/IBMPlexSans-Regular.ttf",
+      "sha1": "39e551d05d6bda6c5e27bee134b4b5cf93809499"
+    },
+    {
+      "path": "assets/fonts/IBMPlexSans-SemiBold.ttf",
+      "sha1": "91c590b240f1c5a232e3181c6e93be679c96bd2b"
+    },
+    {
+      "path": "assets/fonts/IBMPlexSans-SemiBoldItalic.ttf",
+      "sha1": "92a9f40b1c4ce29cdfb471ec3d7c4fdc916d12bd"
+    },
+    {
+      "path": "assets/fonts/IBMPlexSans-Text.ttf",
+      "sha1": "39fc27afc1a0e50dc72658a2be2dd07e367a501e"
+    },
+    {
+      "path": "assets/fonts/IBMPlexSans-TextItalic.ttf",
+      "sha1": "e90054c595f18457c72eb2c3e122edd75a256cc3"
+    },
+    {
+      "path": "assets/fonts/IBMPlexSans-Thin.ttf",
+      "sha1": "93d7914db62b3dc4c7574c16cb0366df503fc75d"
+    },
+    {
+      "path": "assets/fonts/IBMPlexSans-ThinItalic.ttf",
+      "sha1": "7fed0b5a143021aec3f954eb6ca2e294bf8ffb89"
+    }
+  ]
+}
