@@ -37,7 +37,7 @@ export const Colors = {
   bg: { dark: '#393E46', light: '#EEEEEE' },
   orange: '#D65A31',
   grey: '#222831',
-  lightGrey: '#FFFFFF',
+  lightGrey: '#DEDEDE',
 };
 
 const os = Platform.OS;
