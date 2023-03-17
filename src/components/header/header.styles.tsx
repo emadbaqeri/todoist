@@ -1,10 +1,10 @@
 import { StyleSheet } from 'react-native';
-import { ScreenDimensions } from '@constants';
+import { HEADER_HEIGHT, Colors } from '@constants';
 
 const HeaderStyles = StyleSheet.create({
   container: {
-    height: ScreenDimensions.height * 0.1,
-    backgroundColor: 'red',
+    height: HEADER_HEIGHT,
+    backgroundColor: Colors.grey,
   },
 });
 
