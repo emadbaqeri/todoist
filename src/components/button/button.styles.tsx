@@ -1,9 +1,11 @@
+import { Colors } from '@constants';
 import { StyleSheet } from 'react-native';
 
 const ButtonStyles = StyleSheet.create({
   container: {
-    paddingHorizontal: 28,
-    paddingVertical: 12,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: Colors.orange,
   },
 });
 
