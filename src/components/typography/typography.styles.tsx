@@ -1,8 +1,9 @@
 import { StyleSheet } from 'react-native';
-import { Colors } from '@constants';
+import { Colors, Fonts } from '@constants';
 
 const styles = StyleSheet.create({
   text: {
+    fontFamily: Fonts.IBMPlexSans.Bold,
     color: Colors.lightGrey,
   },
 });
